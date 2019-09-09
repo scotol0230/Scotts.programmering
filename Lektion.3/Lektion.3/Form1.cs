@@ -17,9 +17,42 @@ namespace Lektion._3
             InitializeComponent();
         }
 
-        private void Button1_Click(object sender, EventArgs e)
+       
+   
+
+        private void Button1_Click_1(object sender, EventArgs e)
         {
-            MessageBox.Show("Försening, ingen återbetalning.");
+            string text = textBox3.Text;
+            int nummer = int.Parse(textBox2.Text);
+            int år1 = nummer + 50;
+            
+            label2.Text = år1  + " fyller " + text + " 50 år.";
+
+        }
+
+        private void Label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label2_Click(object sender, EventArgs e)
+        {
+          
+        }
+
+        private void Label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
